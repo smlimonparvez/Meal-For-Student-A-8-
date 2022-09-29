@@ -1,0 +1,50 @@
+[
+    {
+        "id": "001ml",
+        "title": "Morning Breakfast",
+        "info":"Breakfast is often called 'the most important meal of the day', and for good reason. Breakfast breaks the overnight fasting period.",
+        "age": "7-16",
+        "time_required": "20 minutes",
+        "img":"https://media.istockphoto.com/photos/breakfast-with-bacon-eggs-pancakes-and-toast-picture-id533645537?k=20&m=533645537&s=612x612&w=0&h=KJXCpAo9XQvMI_djcnRMSsz_Y7OGS6z3-8VThxWyR0Q="
+    },
+    {
+        "id": "002ml",
+        "title": "Before Lunch Snack",
+        "info":"Provides a boost of energy if several hours pass between meals and blood glucose levels drop. Prevent overeating next meal.",
+        "age": "7-16",
+        "time_required": "10 minutes",
+        "img":"https://img-global.cpcdn.com/recipes/90346187fa5f84e6/680x482cq70/simple-breakfast-and-easy-to-prepare1post1hope-recipe-main-photo.jpg"
+    },
+    {
+        "id": "003ml",
+        "title": "Lunch",
+        "info":"Eating lunch raises your blood sugar level in the middle of the day, which gives you the energy you need for the rest of the day.",
+        "age": "7-16",
+        "time_required": "40 minutes",
+        "img":"https://static.toiimg.com/photo/76942221.cms"
+    },
+    {
+        "id": "004ml",
+        "title": "Noon Snack",
+        "info":"Having a snack is good for the metabolism, but taking a break from work is good for the brain. ",
+        "age": "7-16",
+        "time_required": "20 minutes",
+        "img":"https://thumbs.dreamstime.com/z/snacks-noon-you-feel-good-delicious-183591045.jpg"
+    },
+    {
+        "id": "005ml",
+        "title": "Evening Snack",
+        "info":"It reduces the gap between lunch and dinner. It aids in sustaining energy until dinner time.",
+        "age": "7-16",
+        "time_required": "10 minutes",
+        "img":"https://images.alphacoders.com/692/692543.jpg"
+    },
+    {
+        "id": "006ml",
+        "title": "Dinner",
+        "info":"Dinner is an important meal. Having a healthy dinner is linked to good sleep.",
+        "age": "7-16",
+        "time_required": "30 minutes",
+        "img":"https://goqii.com/blog/wp-content/uploads/2-12.jpg"
+    }
+]

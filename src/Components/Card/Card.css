@@ -1,0 +1,42 @@
+.card{
+border: 1px solid darkkhaki;
+border-radius: 7px;
+position: relative;
+background-color: #ffffff;
+}
+.img img{
+border-radius: 15px;
+width: 250px;
+height: 150px;
+padding: 10px;
+}
+.info{
+padding: 10px;
+margin-bottom: 50px;
+}
+.info h2{
+    margin: 0;
+    color: black!important;
+}
+.info p{
+    margin: 0;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.info h4{
+    margin: 0;
+    margin-top: 7px;
+}
+.btn{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    background-color: #5D5FEF;
+    color: #ffffff;
+    font-size: 500;
+}
+.btn:hover{
+    background-color: orange;
+}

@@ -1,0 +1,22 @@
+.container{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    background-color: rgb(242, 244, 250);
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.card-item{
+    margin: 90px;
+}
+.card-item h2{
+    color: #5D5FEF;
+}
+.card-item h3{
+    font-size: 600;
+}
+.aside-bar{
+    background: #ffffff;
+}

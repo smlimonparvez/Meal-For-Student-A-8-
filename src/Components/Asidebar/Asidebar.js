@@ -47,6 +47,12 @@ const Asidebar = () => {
                     </div>
                 </div>
             </div>
+            <div className='exercise-details'>
+                <h2>Exercise Details</h2>
+                <input className='input' type="text" placeholder='Exercise Time 200 sec'  />
+                <input className='input' type="text" placeholder='Break Time 200 sec'  />
+            </div>
+            <button>Task Complete</button>
         </div>
 
     );

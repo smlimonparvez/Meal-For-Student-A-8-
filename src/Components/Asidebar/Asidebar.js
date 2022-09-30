@@ -92,8 +92,8 @@ const Asidebar = (props) => {
             </div>
             <div className='exercise-details'>
                 <h2>Exercise Details</h2>
-                <input id='input-field' className='input' type="text" placeholder='More Break Time 25 sec' />
-                <input id='input-field2' className='input' type="text" placeholder='Total Break Time 54 min' />
+                <input id='input-field' className='input' type="text" placeholder='Add More Break Time' />
+                <input id='input-field2' className='input' type="text" placeholder='Total Break Time' />
             </div>
             <div className='btn-center'>
                 <button className='btn2'>Task Complete</button>

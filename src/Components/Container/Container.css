@@ -17,6 +17,7 @@
     .container{
         display: grid;
         grid-template-columns: 1fr;
+        background-color: #ffffff;
     }
 }
 .card-item{

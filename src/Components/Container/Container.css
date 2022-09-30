@@ -19,6 +19,12 @@
         grid-template-columns: 1fr;
         background-color: #ffffff;
     }
+    .card-item{
+        margin: 59px;
+    }
+    .aside-bar{
+        padding: 15px;
+    }
 }
 .card-item{
     margin: 90px;

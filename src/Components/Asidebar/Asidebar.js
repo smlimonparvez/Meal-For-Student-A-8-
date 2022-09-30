@@ -1,7 +1,20 @@
 import React from 'react';
 import './Asidebar.css';
 import image from '../../images/young-handsome-man-beard-wearing-260nw-1768126784.webp';
-import { isValidInputTimeValue } from '@testing-library/user-event/dist/utils';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+const notify = () =>{
+    toast.success('🦄 Wow so easy!', {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        });
+};
 
 const addMoreTime1 = () => {
     const addTime = document.getElementById('extra-time1');
@@ -74,19 +87,19 @@ const Asidebar = (props) => {
                 <h2>Add More Break</h2>
                 <div className='time-break'>
                     <div>
-                        <button onClick={addMoreTime1} id='extra-time1' className='time-btn'>10 <span>s</span></button>
+                        <button onClick={addMoreTime1} id='extra-time1' className='time-btn'>10<span>s</span></button>
                     </div>
                     <div>
-                        <button onClick={addMoreTime2} id='extra-time2' className='time-btn'>20 <span>s</span></button>
+                        <button onClick={addMoreTime2} id='extra-time2' className='time-btn'>20<span>s</span></button>
                     </div>
                     <div>
-                        <button onClick={addMoreTime3} id='extra-time3' className='time-btn'>30 <span>s</span></button>
+                        <button onClick={addMoreTime3} id='extra-time3' className='time-btn'>30<span>s</span></button>
                     </div>
                     <div>
-                        <button onClick={addMoreTime4} id='extra-time4' className='time-btn'>40 <span>s</span></button>
+                        <button onClick={addMoreTime4} id='extra-time4' className='time-btn'>40<span>s</span></button>
                     </div>
                     <div>
-                        <button onClick={addMoreTime5} id='extra-time5' className='time-btn'>50 <span>s</span></button>
+                        <button onClick={addMoreTime5} id='extra-time5' className='time-btn'>50<span>s</span></button>
                     </div>
                 </div>
             </div>
@@ -96,7 +109,8 @@ const Asidebar = (props) => {
                 <input id='input-field2' className='input' type="text" placeholder='Total Break Time' />
             </div>
             <div className='btn-center'>
-                <button className='btn2'>Task Complete</button>
+                <button onClick={notify} className='btn2'>Task Complete</button>
+                <ToastContainer />
             </div>
         </div>
 

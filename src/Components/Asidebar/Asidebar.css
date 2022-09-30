@@ -45,6 +45,8 @@
     border-radius: 7px;
 }
 .time-btn{
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     padding: 6px;
     text-decoration: none;
@@ -52,6 +54,7 @@
     font-size: 16px;
     color: black;
     border: none;
+    margin-right: 4px;
 }
 .time-btn:hover{
     background-color: orange;

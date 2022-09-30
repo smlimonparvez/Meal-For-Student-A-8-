@@ -44,15 +44,16 @@
     padding: 20px;
     border-radius: 7px;
 }
-.second a{
+.time-btn{
     border-radius: 50%;
     padding: 4px;
     text-decoration: none;
     background-color: #ffff;
     font-size: 20px;
     color: black;
+    border: none;
 }
-.second a:hover{
+.time-btn:hover{
     background-color: orange;
 }
 .exercise-details{
@@ -69,7 +70,6 @@
 .btn2{
     padding: 10px;
     width: 80%;
-    margin: 0 auto;
     border: none;
     font-weight: 600;
     background: #5D5FEF;

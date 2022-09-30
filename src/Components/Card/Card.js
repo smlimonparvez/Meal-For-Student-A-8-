@@ -2,6 +2,7 @@ import React from 'react';
 import './Card.css';
 
 const Card = (props) => {
+    // console.log(props);
     const {card, handleAddToInput} = props;
     const {img, title, info, age, time_required} = card;
     return (

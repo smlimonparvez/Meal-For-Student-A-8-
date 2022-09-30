@@ -5,7 +5,7 @@ import './Container.css';
 
 const Container = () => {
     const [cards, setCards] = useState([]);
-    const [time, setTime] = useState([]);
+    const [card1, setCard1] = useState([]);
 
     useEffect(() => {
         fetch('card.json')
@@ -14,9 +14,9 @@ const Container = () => {
     }, [])
 
     const handleAddToInput = (card) => {
-        console.log('click');
-        const newTime = [...time, card];
-        setTime(newTime);
+        // console.log(card);
+        const newCard = [...card1, card];
+        setCard1(newCard);
     }
 
     return (
@@ -34,7 +34,7 @@ const Container = () => {
                 </div>
             </div>
             <div className='aside-bar'>
-                <Asidebar></Asidebar>
+                <Asidebar card1 = {card1}></Asidebar>
             </div>
         </div>
     );

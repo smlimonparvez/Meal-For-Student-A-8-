@@ -11,7 +11,7 @@ const Container = () => {
         .then(data => setCards(data))
     },[])
 
-    const handleAddToInput =()=>{
+    const handleAddToInput =(card)=>{
 console.log('click')
     }
 
@@ -24,6 +24,7 @@ console.log('click')
                {
                     cards.map(card => <Card key={card.id}
                         card = {card}
+                        handleAddToInput = {handleAddToInput}
                     ></Card>)
                 }
                </div>

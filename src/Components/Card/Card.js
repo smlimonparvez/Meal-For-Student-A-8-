@@ -2,7 +2,8 @@ import React from 'react';
 import './Card.css';
 
 const Card = (props) => {
-    const {img, title, info, age, time_required} = props.card
+    const {card, handleAddToInput} = props;
+    const {img, title, info, age, time_required} = card;
     return (
         <div className='card'>
            <div className='img'>
@@ -14,7 +15,7 @@ const Card = (props) => {
             <h4>For Age: {age}</h4>
             <h4>Break Time: {time_required} min</h4>
            </div>
-           <button className='btn'><p>ADD TO LIST</p></button>
+           <button onClick={()=> handleAddToInput(card)} className='btn'><p>ADD TO LIST</p></button>
         </div>
     );
 };

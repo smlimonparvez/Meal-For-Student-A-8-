@@ -10,6 +10,11 @@ const Container = () => {
         .then(res => res.json())
         .then(data => setCards(data))
     },[])
+
+    const handleAddToInput =()=>{
+console.log('click')
+    }
+
     return (
         <div className='container'>
             <div className='card-item'>

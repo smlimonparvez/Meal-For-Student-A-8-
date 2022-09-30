@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Asidebar from '../Asidebar/Asidebar';
 import Card from '../Card/Card';
 import './Container.css';
+import image from '../../images/food.png';
 
 const Container = () => {
     const [cards, setCards] = useState([]);
@@ -22,7 +23,10 @@ const Container = () => {
     return (
         <div className='container'>
             <div className='card-item'>
+                <div className='org-name'>
+                <img className='food-png' src={image} alt="" />
                 <h2>MEAL FOR STUDENT</h2>
+                </div>
                 <h3>Today's Meal Chart:</h3>
                 <div className='card-container'>
                     {
@@ -34,7 +38,7 @@ const Container = () => {
                 </div>
             </div>
             <div className='aside-bar'>
-                <Asidebar card1 = {card1}></Asidebar>
+                <Asidebar card1={card1}></Asidebar>
             </div>
         </div>
     );

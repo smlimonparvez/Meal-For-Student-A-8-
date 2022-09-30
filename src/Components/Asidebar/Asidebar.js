@@ -5,7 +5,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const notify = () =>{
-    toast.success('🦄 Wow so easy!', {
+    toast.success('🍛 Your tiffin time is over!', {
         position: "top-center",
         autoClose: 5000,
         hideProgressBar: false,
@@ -65,8 +65,8 @@ const Asidebar = (props) => {
             <div className='man-info'>
                 <img src={image} alt="" />
                 <div>
-                    <h4>David Warner</h4>
-                    <p>Californiya, USA</p>
+                    <h4>David Break</h4>
+                    <p>Alabama, USA</p>
                 </div>
             </div>
             <div className='man-info2'>
@@ -104,7 +104,7 @@ const Asidebar = (props) => {
                 </div>
             </div>
             <div className='exercise-details'>
-                <h2>Exercise Details</h2>
+                <h2>Tiffin Break Details</h2>
                 <input id='input-field' className='input' type="text" placeholder='Add More Break Time' />
                 <input id='input-field2' className='input' type="text" placeholder='Total Break Time' />
             </div>
